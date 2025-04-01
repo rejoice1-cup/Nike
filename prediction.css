@@ -150,6 +150,72 @@ h4{
     colour: white;
 }
 
+
+
+football-testimonials {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#football-testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffcc00; /* Football theme color */
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #333;
+    padding: 20px;
+    width: 200px;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.testimonial:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.testimonial-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 3px solid #ffcc00; /* Golden border for the image */
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 1rem;
+    margin: 15px 0;
+    color: #ffff;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #3bff00; /* Football theme color */
+}
+
+            
+
+
+
+            
+
 img{
     width: 100px;
     height: 100px;
@@ -158,4 +224,4 @@ img{
 .popup-box img{
     width: 200px;
     height: 150px;
-        }
+}
